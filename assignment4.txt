@@ -1,0 +1,58 @@
+1.oops
+Oops stsns for Object oreiented programming Language.
+Four types of oops concepts are;
+*polymorphism
+*Encapsulation
+*Inheritance
+*Abstraction
+
+2.polymorphism
+It means many form of implementation
+types:
+*.Method Overloading
+same class same method but with different arguments.It is compile time polymorphism.It is static polymorphism.
+
+*.methodOverridinng:
+Different class with same methodname is called method overriding.It is runtime polymorphism.It is Dynamic polymorphism.
+
+3.Interface
+ Interface is a design.It is used to achieve abstraction.In interface we can't create an object.in a interface we can use only public access modifieror default and it is unimplemented methods
+eg:webdriver is an interface in selenium.
+
+4.Abstract class
+Abstract class is a restricted class that can't create a object. To access the abstract class,it must be inherited from other class.
+eg:   public abstract class Employee{
+      public void name(){
+    system.out.ptintln("Hema");
+}  public abstract void designation();
+    }
+
+5.Mutiple inheritance:
+one class inherits more than one class or interface in a same class.
+
+Multilevel inheritance:
+one base class is derived from other class,the derived class is a base class to inherit someother class.
+it is used in a class level inheritance in java.
+
+6.Mutiple inheritance possible
+ In  java class level,multiple inheritance are not allowed because of ambiguity or conflict.Multiple inheritance is allowed only in interface level.
+
+7.Keyword for using inheritance
+Extends is the keyword,it is used to inherit the properties of the class.
+
+8.Keyword to connect interface and class
+Implements is the keyword, to access the interface it must be implemented by the class with the implemented methods.
+the body of the interface method is provided by the implemented class.
+
+9.Class
+The class can create a object, it must be initiated, it does not support multiple inheritance.
+
+Interface
+The interfaces can't create a object, it can't initiated, it allows multiple inheritance.
+
+10.Class:
+class contains only the implemented methods.
+
+Abstract class:
+class contains both the implemented and unimplemented methods.
+

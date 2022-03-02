@@ -1,0 +1,44 @@
+1.Selenium
+selenium is a open source automated testing framework, which is used to validate webapplications from different browsers and platforms.
+It is used for testing.
+Four type of selenium components are:
+*selenium ide
+*selenium Rc
+*selenium webdrivers(is used for gross browser testing
+*selenium grid
+
+2.Selenium communicate with web browsers
+selenium communicate with the web browser directly through drivers. these drivers accepts commands directly from selenium and executes them in the browser.
+
+3.Locators available in selenium
+1.id 2.class name  3.tagname 4.Linktext 5.partial link text 6.xpath 7.cssSelector
+
+4.Id is preferrable than x-path
+1.ID's are fast and easy in locationg and they are uniquer 
+2.X-path changes in diffrent browser, it may vary from browser to browser sometimes
+ 3.x-path is based on the components of DOM if  DOM changes the x-path also changes.
+
+5.Select value in dropdown
+first we have to create a object to the dropdown, then you can call the desired option by the locator "linktext" using the "select" method.
+*selectByvalue();
+*selectByIndex();
+*selectByvisibleText();
+
+6.Absolute path
+Absolute path contains the entire root of the element i.e., it orginates from the begining of the xpath to desired location 
+Relative path
+ relative xpath locates by referancing the previous or upcoming location or doesnt contqain the entire root
+
+7.System.setproperty
+System.set property sets the property to the browsers because browsers doesnt have inbuild automation properties, 
+ WebDriverManager
+webdrivers execute the comands in the browser.It can automatically download and set the path by using this methods.
+8. If the given checkbox or not
+we can use "isenabled" method to check that checkbox is enabled or not, it returns boolean values. i.e, returns true if checked and returns false if not.
+
+9.Syntax for following and preceeding
+1.Elder xpath//Following::younger tagname    2.Younger xpath//Preceding::elder tagname
+
+10.Get attribute value using selenium wbdriver
+we can use GetAttribute method to get the value web element . 
+it returns string values,or it has boolean type return true or false, or it does not have any value return null.
